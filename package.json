@@ -1,0 +1,33 @@
+{
+  "name": "my-money-app-backend",
+  "version": "1.0.0",
+  "description": "Sistema de controle de finanças com o backen em nodejs",
+  "main": "src/loader.js",
+  "scripts": {
+    "dev": "nodemon",
+    "production": "pm2 start src/loader.js --name my-money-app-backend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ItaloMOraesAlmeida/my-money-app-backend.git"
+  },
+  "author": "Italo Moraes - Curso Udemy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ItaloMOraesAlmeida/my-money-app-backend/issues"
+  },
+  "homepage": "https://github.com/ItaloMOraesAlmeida/my-money-app-backend#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-query-int": "^3.0.0",
+    "lodash": "^4.17.11",
+    "mongoose": "^5.5.12",
+    "mongoose-paginate": "^5.0.3",
+    "node-restful": "^0.2.6",
+    "pm2": "^3.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
